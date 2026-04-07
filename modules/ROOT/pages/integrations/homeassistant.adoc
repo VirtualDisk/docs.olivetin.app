@@ -6,7 +6,7 @@ The recommended way to integrate HomeAssistant and OliveTin is via the xref:inte
 
 Home Assistant is able to call REST API endpoints, making integration with OliveTin possible without any custom plugins or integrations in Home Assistant. This does require modifying your Home Assistant configuration.yml file though.
 
-== Give you actions an ID
+== Give your actions an ID
 
 First, you need to give your actions an ID. This is done by adding an `id` field to your action. This ID will be used by Home Assistant to call the correct action. Here is an example of an action with an ID:
 
